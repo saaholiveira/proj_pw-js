@@ -1,0 +1,15 @@
+body{
+      background-color: #ffb0e5;
+      padding: 20px;
+}
+
+h1{
+      color: black;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: large;
+}
+p{
+      color: rgb(87, 50, 1);
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: medium;
+}
