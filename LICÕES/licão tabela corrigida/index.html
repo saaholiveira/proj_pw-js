@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Bhaskara - Sarah Oliveira</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="./tabela.js"></script>
+</head>
+<body>
+    <h1>Calculadora de Bhaskara</h1>
+    <hr>
+    <form id="linhaForm">
+        <input type="number" name="a" id="a" placeholder="Digite num. A" required>
+        <br><br>
+        <input type="number" name="b" id="b" placeholder="Digite num. B" required>
+        <br><br>
+        <input type="number" name="c" id="c" placeholder="Digite num C" required>
+        <br><br>
+        <p>O resultado de delta é: <strong id="resultadoDelta">?</strong></p>
+        <button type="button" onclick="bhaskara()">Calcular</button>
+    </form>
+    <br><br>
+    <table id="tabelaDados">
+        <thead>
+            <tr>
+                <th>n°</th>
+                <th>a</th>
+                <th>b</th>
+                <th>c</th>
+                <th>x</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</body>
+</html>
